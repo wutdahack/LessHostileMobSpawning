@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "wutdahack.lesshostilemobspawning.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "HostileEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

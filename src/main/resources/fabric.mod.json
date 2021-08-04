@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "lesshostilemobspawning",
+  "version": "${version}",
+  "name": "LessHostileMobSpawning",
+  "description": "mobs now only spawn at light level 0. (yay)",
+  "authors": [
+    "wutdahack"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lesshostilemobspawning/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "lesshostilemobspawning.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "minecraft": "1.16.5"
+  }
+}
